@@ -1,0 +1,44 @@
+body {
+    scroll-behavior: smooth;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f8f9fa;
+  }
+  
+  .navbar-brand {
+    font-weight: 600;
+    font-size: 1.4rem;
+    letter-spacing: 0.5px;
+  }
+  
+  .navbar .nav-link.active {
+    font-weight: bold;
+    color: #ffffff !important;
+  }
+  
+  header h1 {
+    font-weight: 600;
+  }
+  
+  header p.lead {
+    color: #6c757d;
+  }
+  
+  .card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease-in-out;
+  }
+  
+  footer p {
+    margin-bottom: 0.3rem;
+    font-size: 0.95rem;
+  }
+  
+  footer i {
+    font-size: 1.2rem;
+  }
+  
+  .offcanvas .form-label {
+    font-weight: 500;
+  }
+  

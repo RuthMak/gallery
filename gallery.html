@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ruth Artistry | Gallery</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+  <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Ruth Artistry</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="gallery.html">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="exhibitions.html">Exhibitions</a></li>
+          <li class="nav-item"><a class="nav-link" href="merchandise.html">Merchandise</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contactOffcanvas" data-bs-toggle="offcanvas">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="bg-light py-5 text-center border-bottom">
+    <div class="container">
+      <h1 class="display-4">Gallery</h1>
+      <p class="lead">Explore a curated selection of stunning artworks from talented artists worldwide.</p>
+    </div>
+  </header>
+
+  <div class="container my-5">
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="images/hills.jpg" class="card-img-top" alt="Artwork 1">
+          <div class="card-body">
+            <h5 class="card-title">Sunset Over Hills</h5>
+            <p class="card-text">A vibrant oil painting that captures the warm hues of a summer sunset.</p>
+            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#artworkModal1">View Details</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="images/urban.jpeg" class="card-img-top" alt="Artwork 2">
+          <div class="card-body">
+            <h5 class="card-title">Urban Reflections</h5>
+            <p class="card-text">A moody acrylic cityscape reflecting neon lights and quiet nights.</p>
+            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#artworkModal2">View Details</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="images/abstract.jpg" class="card-img-top" alt="Artwork 3">
+          <div class="card-body">
+            <h5 class="card-title">Bold Abstractions</h5>
+            <p class="card-text">A mixed media piece exploring contrast through shape and saturation.</p>
+            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#artworkModal3">View Details</button>
+          </div>
+        </div>
+      </div>
+
+<div class="col-md-4 mb-4">
+    <div class="card h-100">
+      <img src="images/star.jpg" class="card-img-top" alt="Artwork 4">
+      <div class="card-body">
+        <h5 class="card-title">Starry Night</h5>
+        <p class="card-text">A raw graphite painting capturing emotional depth and subtle expressions.</p>
+        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#artworkModal4">View Details</button>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-md-4 mb-4">
+    <div class="card h-100">
+      <img src="images/sunset.jpg" class="card-img-top" alt="Artwork 5">
+      <div class="card-body">
+        <h5 class="card-title">Bright Beach</h5>
+        <p class="card-text">A colorful piece echoing classical elegance and craftsmanship.</p>
+        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#artworkModal5">View Details</button>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-md-4 mb-4">
+    <div class="card h-100">
+      <img src="images/modern.jpg" class="card-img-top" alt="Artwork 6">
+      <div class="card-body">
+        <h5 class="card-title">Modern Art</h5>
+        <p class="card-text">A futuristic take on visual storytelling through geometric abstraction.</p>
+        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#artworkModal6">View Details</button>
+      </div>
+    </div>
+  </div>
+    </div>
+    </div>
+  
+<div class="modal fade" id="artworkModal1" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Sunset Over Hills</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          <img src="images/hills.jpg" class="img-fluid mb-3" alt="">
+          <p>Artist Alex Lee’s pencil sketch shows mastery of tone, balance, and human emotion through minimalist detail.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="modal fade" id="artworkModal2" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Urban Reflections</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          <img src="images/urban.jpeg" class="img-fluid mb-3" alt="">
+          <p>This neoclassical marble sculpture highlights the delicate anatomy and poise of Renaissance-inspired works.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="modal fade" id="artworkModal3" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Bold Abstractions</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          <img src="images/abstract.jpg" class="img-fluid mb-3" alt="">
+          <p>Lisa Wong’s digital composition blends symmetry and color theory to propose a new vision of contemporary design.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="modal fade" id="artworkModal4" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Starry Night</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          <img src="images/star.jpg" class="img-fluid mb-3" alt="">
+          <p>This piece by google explores the fleeting moment of twilight through dynamic brushstrokes and color theory.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="artworkModal5" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Bright Beach</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          <img src="images/sunset.jpg" class="img-fluid mb-3" alt="">
+          <p>Google cityscape uses layered textures to evoke mood and memory in metropolitan spaces.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="artworkModal6" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Modern Art</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          <img src="images/modern.jpg" class="img-fluid mb-3" alt="">
+          <p>Google challenges form through collage, print, and hand-painted overlays.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="bg-dark text-light py-4 mt-5">
+    <div class="container text-center">
+      <p class="mb-1">&copy; 2025 Ruth Artistry. All rights reserved.</p>
+      <p>
+        <a href="#" class="text-light mx-2" data-bs-toggle="tooltip" title="Facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="text-light mx-2" data-bs-toggle="tooltip" title="Instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="text-light mx-2" data-bs-toggle="tooltip" title="Twitter"><i class="bi bi-twitter"></i></a>
+      </p>
+    </div>
+  </footer>
+
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="contactOffcanvas" aria-labelledby="contactOffcanvasLabel">
+    <div class="offcanvas-header">
+      <h5 id="contactOffcanvasLabel">Contact Us</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <form>
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Your Name">
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" id="message" rows="3" placeholder="Your Message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
