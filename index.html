@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ruth Artistry | Home</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+  <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Ruth Artistry</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="exhibitions.html">Exhibitions</a></li>
+          <li class="nav-item"><a class="nav-link" href="merchandise.html">Merchandise</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contactOffcanvas" data-bs-toggle="offcanvas">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div id="homeCarousel" class="carousel slide carousel-dark" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/logo.jpg" class="d-block w-100" alt="Home Banner">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Welcome to Ruth Artistry</h5>
+          <p>Discover, Experience, and Collect Unique Artworks.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container text-center my-5">
+    <h2 class="mb-3">Explore Our Creative Universe</h2>
+    <p class="lead">Dive into original collections from visionary artists. Browse our gallery, attend an exhibition, or shop curated art pieces and materials.</p>
+    <a href="gallery.html" class="btn btn-primary m-2">Visit Gallery</a>
+    <a href="exhibitions.html" class="btn btn-secondary m-2">Explore Exhibitions</a>
+    <a href="merchandise.html" class="btn btn-outline-dark m-2">Shop Merchandise</a>
+  </div>
+
+  <footer class="bg-dark text-light py-4">
+    <div class="container text-center">
+      <p class="mb-1">&copy; 2025 Artistry Hub. All rights reserved.</p>
+      <p>
+        <a href="#" class="text-light mx-2" data-bs-toggle="tooltip" title="Facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="text-light mx-2" data-bs-toggle="tooltip" title="Instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="text-light mx-2" data-bs-toggle="tooltip" title="Twitter"><i class="bi bi-twitter"></i></a>
+      </p>
+    </div>
+  </footer>
+
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="contactOffcanvas" aria-labelledby="contactOffcanvasLabel">
+    <div class="offcanvas-header">
+      <h5 id="contactOffcanvasLabel">Contact Us</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <form>
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Your Name">
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" id="message" rows="3" placeholder="Your Message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
